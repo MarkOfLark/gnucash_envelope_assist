@@ -102,3 +102,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Files that have personal information
+DO_NOT_COMMIT*
