@@ -1,0 +1,81 @@
+title = "Envelope Transactions"
+
+[transaction]
+    [transaction.Savings]
+    recurrence = "weekly"
+    amount = 100.00
+    account = "Savings Account:General Savings"
+
+    [transaction.AutoInsurance]
+    recurrence = "bi-yearly"
+    amount = 900.00
+    account = "Checking Account:Recurring Envelopes:Auto Insurance"
+
+    [transaction.CarRepair]
+    recurrence = "yearly"
+    amount = 2000.00
+    account = "Checking Account:Recurring Envelopes:Car Repair"
+
+    [transaction.Clothes]
+    recurrence = "monthly"
+    amount = 100.00
+    account = "Checking Account:Recurring Envelopes:Clothes"
+
+    [transaction.Spouse1Allowance]
+    recurrence = "weekly"
+    amount = 20.00
+    account = "Checking Account:Recurring Envelopes:Discretionary:Spouse 1 Allowance"
+
+    [transaction.Spouse2Allowance]
+    recurrence = "weekly"
+    amount = 20.00
+    account = "Checking Account:Recurring Envelopes:Discretionary:Spouse 2 Allowance"
+
+    [transaction.Donation]
+    recurrence = "monthly"
+    amount = 200.00
+    account = "Checking Account:Recurring Envelopes:Donation"
+
+    [transaction.Food]
+    recurrence = "weekly"
+    amount = 150.00
+    account = "Checking Account:Recurring Envelopes:Food"
+
+    [transaction.BirthdaySpouse1]
+    recurrence = "yearly"
+    start_date = 2018-08-24T00:00:00-00:00
+    end_date = 2019-02-01T00:00:00-00:00
+    amount = 50.00
+    account = "Checking Account:Recurring Envelopes:Gifts:Birthday Spouse 1"
+
+    [transaction.BirthdaySpouse2]
+    description = ""
+    recurrence = "yearly"
+    start_date = 2018-08-24T00:00:00-00:00
+    end_date = 2019-08-01T00:00:00-00:00
+    amount = 50.00
+    account = "Checking Account:Recurring Envelopes:Gifts:Birthday Spouse 2"
+
+    [transaction.Rent]
+    recurrence = "monthly"
+    amount = 1200.00
+    account = "Checking Account:Recurring Envelopes:Rent"
+
+    [transaction.AutoLoan]
+    recurrence = "monthly"
+    amount = 250.00
+    account = "Checking Account:Short Term Envelopes:Auto Loan"
+
+    [transaction.BigUpcommingExpense]
+    recurrence = "none"
+    start_date = 2018-08-24T00:00:00-00:00
+    end_date = 2019-05-01T00:00:00-00:00
+    amount = 7000.00
+    account = "Checking Account:Short Term Envelopes:Big Upcomming Expense"
+
+    [transaction.RoadTrip]
+    recurrence = "none"
+    start_date = 2018-08-24T00:00:00-00:00
+    end_date = 2019-05-01T00:00:00-00:00
+    amount = 7000.00
+    account = "Checking Account:Short Term Envelopes:Road Trip"

@@ -1,0 +1,96 @@
+{
+    "envelopes": [
+        {
+            "description": "Savings",
+            "recurrence": "weekly",
+            "amount": 100.00,
+            "gnucash_source": "Checking Account",
+            "gnucash_destination": "Savings Account:General Savings"
+        },
+        {
+            "description": "Auto Insurance",
+            "recurrence": "bi-yearly",
+            "amount": 900.00,
+            "gnucash_source": "Checking Account",
+            "gnucash_destination": "Checking Account:Recurring Envelopes:Auto Insurance"
+        },
+        {
+            "description": "Auto Repair",
+            "recurrence": "yearly",
+            "amount": 2000.00,
+            "gnucash_source": "Checking Account",
+            "gnucash_destination": "Checking Account:Recurring Envelopes:Car Repair"
+        },
+        {
+            "description": "Clothes",
+            "recurrence": "monthly",
+            "amount": 100.00,
+            "gnucash_source": "Checking Account",
+            "gnucash_destination": "Checking Account:Recurring Envelopes:Clothes"
+        },
+        {
+            "description": "Spouse 1 Allowance",
+            "recurrence": "weekly",
+            "amount": 20.00,
+            "gnucash_source": "Checking Account",
+            "gnucash_destination": "Checking Account:Recurring Envelopes:Discretionary:Spouse 1 Allowance"
+        },
+        {
+            "description": "Spouse 2 Allowance",
+            "recurrence": "weekly",
+            "amount": 20.00,
+            "gnucash_source": "Checking Account",
+            "gnucash_destination": "Checking Account:Recurring Envelopes:Discretionary:Spouse 2 Allowance"
+        },
+        {
+            "description": "Donation",
+            "recurrence": "monthly",
+            "amount": 200.00,
+            "gnucash_source": "Checking Account",
+            "gnucash_destination": "Checking Account:Recurring Envelopes:Donation"
+        },
+        {
+            "description": "Food",
+            "recurrence": "weekly",
+            "amount": 150,
+            "gnucash_source": "Checking Account",
+            "gnucash_destination": "Checking Account:Recurring Envelopes:Food"
+        },
+        {
+            "description": "Birthday Spouse 1",
+            "recurrence": "yearly",
+            "amount": 50,
+            "gnucash_source": "Checking Account",
+            "gnucash_destination": "Checking Account:Recurring Envelopes:Gifts:Birthday Spouse 1"
+        },
+        {
+            "description": "Birthday Spouse 2",
+            "recurrence": "yearly",
+            "amount": 50,
+            "gnucash_source": "Checking Account",
+            "gnucash_destination": "Checking Account:Recurring Envelopes:Gifts:Birthday Spouse 2"
+        },
+        {
+            "description": "Rent",
+            "recurrence": "monthly",
+            "amount": 1200.00,
+            "gnucash_source": "Checking Account",
+            "gnucash_destination": "Checking Account:Recurring Envelopes:Gifts:Rent"
+        },
+        {
+            "description": "Auto Loan",
+            "recurrence": "monthly",
+            "amount": 250.00,
+            "gnucash_source": "Checking Account",
+            "gnucash_destination": "Checking Account:Short Term Envelopes:Gifts:Auto Loan"
+        },
+        {
+            "description": "Big Upcomming Expense",
+            "recurrence": "none",
+            "amount": 7000.00,
+            "start date": 2018-08-24
+            "gnucash_source": "Checking Account",
+            "gnucash_destination": "Checking Account:Short Term Envelopes:Gifts:Big Upcomming Expense"
+        }
+    ]
+}
